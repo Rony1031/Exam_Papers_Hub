@@ -112,7 +112,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
                   onClick={() => router.push('/properties')}
                 />
                 <MenuItem 
-                  label="Exam paper hub" 
+                  label="Exam Papers Hub" 
                   onClick={rentModal.onOpen}
                 />
                 <hr />
