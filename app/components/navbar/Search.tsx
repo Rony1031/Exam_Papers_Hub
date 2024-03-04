@@ -23,7 +23,7 @@ const Search = () => {
       return getByValue(locationValue as string)?.label;
     }
 
-    return 'Anywhere';
+    return 'Location';
   }, [locationValue, getByValue]);
 
   const durationLabel = useMemo(() => {
