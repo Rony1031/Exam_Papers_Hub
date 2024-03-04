@@ -58,7 +58,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
             cursor-pointer
           "
         >
-          Add A Paper
+          Add Paper
         </div>
         <div 
         onClick={toggleOpen}
